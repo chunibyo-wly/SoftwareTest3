@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
-mkdir report
-pytest test/*.py --html=/var/www/nginx/report/index.html
+report="/var/www/nginx/report"
+
+if [ ! -d $report ]; then
+  mkdir -p $report
+fi
+
+pytest test/*.py --html=$report/index.html
