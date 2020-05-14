@@ -1,0 +1,81 @@
+area_rule:
+  - #
+    level:
+      - 380
+      - 980
+      - 980
+      - 1400
+    extra:
+      - 1400
+      - 2000
+      - 3000
+    weight:
+      - 23
+      - 28
+    size:
+      - 158
+    max_number: 1
+  - #
+    level:
+      - 280
+      - 690
+      - 690
+      - 1100
+    extra:
+      - 1100
+      - 1100
+      - 1590
+    weight:
+      - 23
+      - 28
+    size:
+      - 158
+    max_number: 2
+  - #
+    level:
+      - 520
+      - 520
+      - 520
+      - 520
+    extra:
+      - 1170
+      - 1170
+      - 1590
+    weight:
+      - 23
+      - 23
+    size:
+      - 158
+    max_number: 2
+  - #
+    level:
+      - 690
+      - 1040
+      - 1040
+      - 2050
+    extra:
+      - 1380
+      - 1380
+      - 1590
+    weight:
+      - 23
+      - 28
+    size:
+      - 158
+    max_number: 1
+  - #
+    level:
+      - 210
+      - 520
+      - 520
+      - 830
+    extra:
+      - 830
+      - 1100
+      - 1590
+    weight:
+      - 23
+      - 28
+    size:
+      - 158
+    max_number: 1
